@@ -1,0 +1,278 @@
+@media (max-width:1250px){
+  .meet__content{
+    background-color: rgba(255,255,255,0.7)
+  }
+}
+@media (max-width:950px){
+  .meet__content{
+    background-color: rgba(255,255,255,0.7)
+  }
+  .statistics__inner,
+  .technology__inner,
+  .learning__inner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-height: none;
+    height: 1000px;
+  }
+  .statistics__content{
+    padding-top: 70px;
+  }
+  .technology__content,
+  .learning__content{
+    margin-top: 70px;
+  }
+  .technology__img-block{
+    padding: 0;
+  }
+  .technology__btn,
+  .learning__btn{
+    max-height: 50px;
+  }
+  .img-dot{
+  display: none;
+  }
+  .technology__help,
+  .learning__help{
+  left:50%;
+  transform:translate(-50%, -50%);
+  }
+  .technology__help-text,
+  .learning__help-text{
+  font-size: 16px;
+  line-height: 20px;
+  }
+  .img-meet{
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  padding: 35px 10px;
+  }
+  .statistics__img-block{
+    padding-top: 60px;
+  }
+  .statistics__img {
+    border: none;
+  }
+  .technology__inner{
+    max-width: none;
+  }
+    .advantages:before{
+    display: none;
+  }
+.advantages:after{
+  display: none;
+}
+.advantages{
+  padding-top:30px;
+}
+.advantages__inner{
+  max-height: none;
+  padding-top: 0;
+}
+.advantages__items{
+  flex-direction: column;
+  align-items: center;
+}
+.advantages__item{
+  margin-top:10px
+}
+.advantages__text{
+  margin: 0;
+}
+.learning__img-block{
+padding-top: 0;
+}
+.started:before{
+  display: none;
+}
+.footer__content{
+  flex-direction: column;
+}
+.footer__info-left{
+  padding-bottom: 20px;
+}
+}
+
+
+@media (max-width:850px){
+  .header{
+    padding: 30px 0;
+  }
+  .header__content{
+    display: flex;
+    justify-content: space-between;
+  }
+  .header__inner{
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  .header__btn-menu{
+    display: block;
+    padding-top: 6px;
+    padding-left: 20px;
+  }
+  .menu ul{
+    display: none;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-top: 20px;
+    z-index: 50;
+  }
+  .menu li{
+    display: block;
+    text-align: center;
+  }
+  .menu a{
+    display: block;
+    border-top: 1px solid #fff;
+    background-color: #F9F5F2;
+    font-size: 15px;
+    line-height: 17px;
+    font-weight: 500;
+    padding: 12px 31px;
+    border-radius: 4px;
+  }
+    .menu li + li{
+    padding-left: 0;
+  }
+  .services__inner{
+    flex-direction: column;
+    align-items: center;
+    max-height: none;
+    margin-bottom: 20px;
+  }
+  .services__box{
+  margin-top: 20px;
+  margin-bottom: 0;
+  max-width: 520px;
+  width: 100%;
+  height: auto;
+  }
+  .services__text,
+  .services__a{
+  padding-top: 20px;
+  }
+  .started__inner{
+    max-width: none;
+    background-image: none;
+  }
+.footer__copy-inner{
+  flex-direction: column;
+}
+}
+
+@media (max-width:700px){
+  .meet__content{
+    padding: 150px 10px;
+  }
+  .step__inner{
+    max-height: none;
+}
+  .step__items{
+  flex-direction: column;
+  }
+  .step__btn{
+    padding-bottom: 20px;
+  }
+  .copy__text{
+    font-size: 13px;
+    line-height: 20px;
+    padding-top: 10px;
+  }
+}
+
+@media (max-width:500px){
+  .meet__title {
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 60px;
+}
+.meet__text {
+    font-size: 18px;
+    line-height: 30px;
+}
+.technology__help,
+.learning__help{
+  margin-top: 400px;
+}
+.footer__info-right{
+  flex-direction: column;
+}
+.footer__nav-resources{
+  justify-content: center;
+}
+.footer__nav{
+  display: none;
+}
+.magazine-title,
+.resources-title,
+.more-title{
+cursor: pointer;
+}
+}
+
+@media (max-width:390px){
+  .header{
+    height: 145px;
+    padding: 30px 0;
+  }
+.header__content{
+  display: block;
+}
+.header__inner{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.header__btn{
+  padding: 0;
+}
+.header__btn-menu{
+  padding-left: 5px;
+}
+.meet__content{
+display: flex;
+align-items: center;
+}
+.meet__title {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 45px;
+    text-align: center;
+}
+.meet__text {
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+}
+.meet__bello {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+}
+.technology__help,
+.learning__help{
+  margin-top: 320px;
+}
+.advantages__img-stars{
+  width: 100%;
+  height: auto;
+  max-width: 200px;
+}
+
+}
+
+@media (min-width:851px){
+  .menu ul{
+    display: block !important;
+  }
+}
+
+@media (min-width:501px){
+  .footer__nav{
+    display: block !important;
+  }
+}
